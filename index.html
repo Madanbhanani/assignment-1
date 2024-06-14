@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <h3><em>Using Only HTML</em></h3>
+    <dfn>
+        <dt>Note:</dt>
+        <dd>you Can't See Clear in Mobile Screen</dd>
+    </dfn>
+    <br>
+    <hr>
+    <form action="../index2.html">
+        <table  border="0" height="560" bgcolor="aquamarine">
+            <tr align="center">
+                <td colspan="3"><h1>School Admission  Form</h1></td>
+            </tr>
+            <tr>
+                <td width="130"  align="center"><label for="first"><b>Student's Name :</b></label></td>
+                <td height="50"  align="center"><input type="text" placeholder="First" id="first" name="Firstname" ></td>
+                <td width="200"><input type="text" placeholder="Last" name="lastname"></td>
+            </tr>
+            <tr >
+                <td height="50" align="center"><b>Class you want to<br>Apply for<sup>*</sup> : </b></td>
+                <td colspan="2"><input type="text"  size="46"></td>
+            </tr>
+            <tr>
+                <td height="60"  align="center"><label for=""><b>Student's DoB :</b></label></td>
+                <td><input type="date" name="date" id="date"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td height="50"  align="center"><Label for="parent"><b>Parent/Guardian<br>Name<sup>*</sup> :</b></Label></td>
+                <td  align="center"><input type="text" name="parent" placeholder="First" id="parent"></td>
+                <td><input type="text" name="parent" placeholder="Last" id="parent"></td>
+            </tr>
+            <tr>
+                <td height="40"><label for="adrees"><b>Curren Address</b></label></td>
+                <td colspan="2"><input type="text" name="Address" size="46" id="adrees"></td>
+            </tr>
+            <tr>
+                <td height="40"></td>
+                <td colspan="2"><input type="text" size="46" placeholder="city"></td>
+            </tr>
+            <tr align="center">
+                <td height="40"></td>
+                <td><input type="text" name="religion" placeholder="Religion" ></td>
+                <td><select name="countru" id="">
+                    <option value="USA">Country</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="Bingladish">Bingladish</option>
+                    <option value="Irelend">Irelend</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="center" height="40"><label for="no"><b>Mobile No :</b></label></td>
+                <td colspan="2"><input type="number" name="contact" id="no" size="46"></td>
+            </tr>
+
+            <tr>
+                <td align="center" height="40"><label for="email"><b>Email :</b></label></td>
+                <td colspan="2"><input type="email" name="email"  placeholder="Enter Email" id="email" size="46"></td>
+            </tr>
+
+            <tr align="center">
+                <td height="70"></td>
+                <td><input type="reset" value="Reset" ></td>
+                <td><input type="submit" value="Submit" ></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
